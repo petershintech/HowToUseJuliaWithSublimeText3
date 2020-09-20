@@ -303,7 +303,7 @@ In order to be able to open a Julia REPL from a Julia source file currently open
     }
 ]
 ```
-Note that the above assumes that the Julia executable, `julia`, is in the default location specified by the installer. Note that  we can have multiple  commands for different versions of Julia. So in the **Tools/Command Palette** either choose the command **Terminus: Open Julia 1.3** or the command **Terminus: Open Julia Nightly**. Note the magic incantation to allow for a space in the Julia-development path: the quoting `"%LOCALAPPDATA%\\Programs\\\"Julia 1.5.0-DEV\"\\bin\\julia.exe"` is needed to make it work.
+Note that the above assumes that the Julia executable, `julia`, is in the default location specified by the installer. Note that  we can have multiple  commands for different versions of Julia. So in the **Tools/Command Palette** either choose the command **Terminus: Open Julia Stable** or the command **Terminus: Open Julia Nightly**. Note the magic incantation to allow for a space in the Julia-development path: the quoting `"%LOCALAPPDATA%\\Programs\\\"Julia 1.5.0-DEV\"\\bin\\julia.exe"` is needed to make it work.
 
 Also, it is possible to set the environment variable directing the use of threading, `JULIA_NUM_THREADS`. Extending this to other environment variables is likely to be successful as well.
 
